@@ -33,9 +33,12 @@ To set up and run this project locally, follow these steps:
     ```
     SPHERON_TOKEN=<your_access_token>
     ```
-8. Follow the Spheron Compute documentation to build and push your Docker image, and learn about creating a Docker image [here](https://docs.spheron.network/compute/cluster/).
-9. Use the `/initiate-upload` endpoint in your frontend to obtain an upload token for the browser SDK. Detailed instructions can be found [here](https://docs.spheron.network/sdk/browser/).
-10. You can start your project using `yarn dev`.
+8. Start the backend using:
+    ```
+    yarn start
+    ```
+10. Use the `/initiate-upload` endpoint in your frontend to obtain an upload token for the browser SDK. Detailed instructions can be found [here](https://docs.spheron.network/sdk/browser/).
+11. You can start your project using `yarn dev`.
 
 🚀 Congratulations! You now have your own end-to-end NFT marketplace.
 
